@@ -2,3 +2,5 @@ frutas
 verduras 
 limpieza 
 snacks
+carne
+yerba

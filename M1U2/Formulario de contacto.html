@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body bgcolor="lightgray">
+    <h1>Formulario de contacto</h1>
+    <h2>Complete sus datos y en breve me contactaré con usted.</h2>
+    <form action="" method="">
+        <div>
+            <label for="Nomb">Nombre*</label>
+            <input type="text" placeholder="Escribe tu nombre">
+        </div>
+        <div>
+            <label for="Apellido">Apellido*</label>
+            <input type="text" placeholder="Escribe tu apellido">
+        </div>
+        <div>
+            <label for="sexo">Sexo*</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" value="Hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="Mujer">
+                    <label>Mujer</label>
+                </li>
+            </ul>
+            <label> Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="Bailar" id="Bailar" />
+                    <label for="Bailar">Bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="cantar" id="cantar" />
+                    <label for="cantar">Cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="nadar" id="nadar" />
+                    <label for="nadar">Nadar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="correr" id="correr" />
+                    <label for="correr">Correr</label>
+                </li>
+            </ul>
+            <label for="titulo">Titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email*</label>
+            <input type="text" placeholder="Escribe tu email">
+        </div>
+        <div>
+            <label for="Tel">Telefono</label>
+            <input type="text" placeholder="Escribe tu telefono">
+        </div>
+        <div>
+            <label for="Asunto">Asunto</label>
+            <input type="text" placeholder="Escribe un asunto">
+        </div>
+        <div>
+            <label for="Mensaje">Mensaje
+            </label>
+            <textarea name="mensaje" placeholder="Deja aquí tus comentarios"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </div>
+    </form>
+    <h4>Todos los campos indicados con * son obligatorios.</h4>
+</body>
+</html>

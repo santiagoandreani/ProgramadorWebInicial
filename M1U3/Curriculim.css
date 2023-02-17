@@ -1,0 +1,17 @@
+body{
+    background: rgb(97,97,97);
+    background: linear-gradient(90deg, rgba(97,97,97,1) 0%, rgba(186,186,186,1) 50%, rgba(97,97,97,1) 100%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+img.rounded-corners{
+    border-radius: 40px;
+}
+ 

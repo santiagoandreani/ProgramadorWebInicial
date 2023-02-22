@@ -1,0 +1,47 @@
+body {
+    background: rgb(97, 97, 97);
+    background: linear-gradient(90deg, rgba(97, 97, 97, 1) 0%, rgba(186, 186, 186, 1) 50%, rgba(97, 97, 97, 1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+form{
+    position: relative;
+    left: 40%;
+}
+input{
+    border: none; 
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+input:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+select{
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+select:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+textarea {
+    display: inline-flex;
+    padding: 5px 15px;
+    resize: none;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
+textarea:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
